@@ -1,9 +1,8 @@
 #  **<span style="color:green">Landmark Technologies, Ontario, Canada.</span>**
-### **<span style="color:green">Contacts: +1437 215 2483<br> WebSite : <http://mylandmarktech.com/></span>**
-### **Email: mylandmarktech@gmail.com**
-# Landmark Technologies,  -    Landmark Technologies 
-# Tel: +1 437 215 2483,   -     +1 437 215 2483 
-#    www.mylandmarktech.com 
+### **<span style="color:green">Contacts: +1240-462-1760<br></span>**
+### **Email: chederek07@gmail.com**
+# Derek's Sample,  -    Landmark Technologies 
+# Tel: +1 240 462 1760,
 # Terraform Installation And Setup In AWS EC2 Linux Instances
 #  Using Terraform to provision a fully managed Amazon EKS Cluster
 
