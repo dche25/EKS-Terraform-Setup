@@ -3,7 +3,7 @@
 #
 
 variable "cluster-name" {
-  default = "eks-landmark"
+  default = "eks-demo"
   type    = string
 }
 variable "key_pair_name" {
