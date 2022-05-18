@@ -1,10 +1,5 @@
-<<kops
-Landmark Technologies 
-Tel: +1 437 215 2483 
-mylandmarktech@gailcom 
-www.mylandmarktech.com 
-kops
-Setup Kubernetes (K8s) Cluster on AWS Using KOPS
+
+# Setup Kubernetes (K8s) Cluster on AWS Using KOPS
 
 #!/bin/bash
 #1) Create Ubuntu EC2 instance
@@ -35,7 +30,7 @@ Setup Kubernetes (K8s) Cluster on AWS Using KOPS
  aws s3 mb s3://nubonglegah.k8.local
  aws s3 ls
 
-5) Create an IAM role from Consloe or CLI with below Policies.
+5) Create an IAM role from Console or CLI with below Policies.
 
 	AmazonEC2FullAccess 
 	AmazonS3FullAccess
