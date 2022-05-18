@@ -6,7 +6,7 @@
 #
 
 resource "aws_iam_role" "demo-cluster" {
-  name = "eks-landmark"
+  name = "eks-iam-role"
 
   assume_role_policy = <<POLICY
 {
@@ -35,7 +35,7 @@ resource "aws_iam_role_policy_attachment" "demo-cluster-AmazonEKSServicePolicy" 
 }
 
 resource "aws_security_group" "demo-cluster" {
-  name        = "eks-landmark"
+  name        = "eks-landmark-sg"
   description = "Cluster communication with worker nodes"
   vpc_id      = aws_vpc.demo.id
 
